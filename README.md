@@ -6,6 +6,10 @@ I'm already use this resource, but recording to make a generic abstract class to
 At begining this is focused in Wordpress teme and plugin creation, but should be more diverse
 
 #### Start: 2023-09-20
-*Autor:* Fernando Norte (fnorte@gmail.com[mailto:fnorte@gmail.com]) 
+*Autor:* Fernando Norte (fnorte@gmail.com) 
 
 ## ISSUES
+
+- Avoid any reference to read directly to the file in Parent classes.
+- Find way to protect the direct access to the file
+- protect problems with read and write to the file
