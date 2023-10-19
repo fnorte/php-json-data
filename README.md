@@ -1,14 +1,18 @@
 # php-json-data
-Abstract Class to make a simple cache system using Json Data.
 
-#### Start: 2023-09-20
+An abstract Class to make a simple cache system using Json Data.
+
+## Start @ 2023-09-20
+
 *Autor:* Fernando Norte (fnorte@gmail.com) 
 
 ## ISSUES
 
 ### 2023-10
 
-- Update but I make no idea where, just get the most recent and paste here, because is too old and trashed to spend with review..
+- Updated but I have no idea where, I just took the most recent code I used and pasted it here, as it was already too old and loose to spend on proofreading.
+
+- BUT, I saw an accent remover and a debugger function made it with chipped stone
 
 
 ### 2023-09
