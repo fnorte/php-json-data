@@ -3,14 +3,13 @@
  * Description : Create json files to use htem as cache, to speed up the data delivery.
  * @var mixed bool,integer $time - Time of the cycle to update data (in seconds).
  **/
-<?php
 abstract class JsonData
 {
 
 		// Time of the cycle to update data (in seconds).
-    protected  $time_check
+    protected  $time_check;
 		// path to save the files.
-    protected  $path
+    protected  $path;
 		// file name.
     protected  $file_name;
 
@@ -34,11 +33,6 @@ abstract class JsonData
         }
     }
 
-		/**
-		 * Get the data from the source to generate the json data.
-		 */
-  	abstract public function save_data();
-	
 		/**
 		 * Main function to response the data,
 		 * @need_improvment:  CHANGE THE NAME to more logical and direct 
@@ -106,8 +100,11 @@ abstract class JsonData
         return false !== $save ? $json_data : false;
     }
 
-    abstract public function save_data();
-
+		/**
+		 * Get the data from the source to generate the json data.
+		 */
+  	abstract public function save_data();
+	
     public function get_json_data($file = false)
     {
         if (!$file) {
